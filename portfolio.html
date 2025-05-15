@@ -1,58 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="portstyle.css">
+  <link rel="stylesheet" href="portstyle.css" />
+  <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon" />
+  <script src="https://unpkg.com/scrollreveal"></script>
   <title>My Futuristic Portfolio</title>
 </head>
+
 <body>
   <header>
-    <h1 class="logo">My Portfolio</h1>
-    <img src="https://via.placeholder.com/50" alt="Profile Photo" class="profile-pic">
+    <button id="theme-toggle">🌓</button>
+    <h1 class="logo">Raj Patil</h1>
+    <img src="profile.jpg" alt="Profile Photo" class="profile-pic" />
+
   </header>
+  <div id="image-modal" class="modal">
+    <span class="close-btn">&times;</span>
+    <img class="modal-content" id="modal-img" alt="Profile Enlarged" />
+  </div>
 
   <section class="hero">
-    <h2>Hello, I'm a Full-Stack Developer</h2>
-    <p>Skilled in Java, C, C++, Python, and SQL. I specialize in frontend development and aim to become a full-stack web developer. I create responsive and visually appealing websites.</p>
+    <h2 id="typed-text">>
+      <!-- <h2>Hello, I'm a Full-Stack Developer</h2> -->
+    </h2>
+    <p>
+      Hi, I'm Raj Patil, a passionate and forward-thinking Frontend Developer with a strong foundation in Java, C, C++,
+      Python, and SQL. I blend logic with creativity to design responsive, visually stunning websites and aim to evolve
+      into a full-stack web developer.
+
+      What sets me apart is my drive to innovate — I don’t just build interfaces; I craft immersive digital experiences.
+      Whether it's implementing dark/light theme toggles, modal effects, or futuristic design aesthetics, I thrive on
+      bringing ideas to life through code.
+
+      I'm always curious, constantly learning, and committed to building clean, accessible, and impactful web solutions.
+      Let's connect and build something amazing together!
+    </p>
   </section>
 
   <section class="projects">
     <h2>My Projects</h2>
     <div class="project-list">
-      <a href="#" class="project-card" target="_blank">
-        <h3>Weather Forecast App</h3>
-        <p>A fully functional weather app with location preferences and accurate details, similar to Google's.</p>
+      <a href="https://rajpatil-2025.github.io/PRODIGY_WD_01/" class="project-card" target="_blank">
+        <h3>Landing Page</h3>
+        <p>A Landing page that is created using HTML CSS and JavaScript with a good futuristic design and appealing look
+          it is a engaging website.</p>
       </a>
-      <a href="#" class="project-card" target="_blank">
-        <h3>Portfolio Website</h3>
-        <p>A futuristic and responsive personal portfolio site with glowing elements and smooth transitions.</p>
+      <a href="https://rajpatil-2025.github.io/PRODIGY_WD_02/" class="project-card" target="_blank">
+        <h3>Stopwatch</h3>
+        <p>This is a simple stopwatch that contains Hour, Minutes, Seconds, and Miliseconds, with lap option that stores
+          laps.</p>
       </a>
-      <a href="#" class="project-card" target="_blank">
-        <h3>Task Manager</h3>
-        <p>A sleek web application for tracking tasks, setting priorities, and managing daily productivity.</p>
+      <a href="https://rajpatil-2025.github.io/PRODIGY_WD_03/" class="project-card" target="_blank">
+        <h3>Tic Tac Toe</h3>
+        <p>this is a Tic Tac Toe game with good winning, loosing, and draw effects it is a simple looking functional
+          game with minimilistic looks.</p>
       </a>
     </div>
   </section>
 
   <section class="contact">
     <h2>Contact Me</h2>
-    <p>Let's connect on <a href="https://linkedin.com" target="_blank">LinkedIn</a> or reach out via email: your.email@example.com</p>
+    <p>
+      Let's connect on
+      <a href="https://www.linkedin.com/in/raj-patil-01a943248/" target="_blank">LinkedIn</a>
+      or reach out via email: rajpatil08080@gmail.com
+    </p>
     <div class="social-links">
-      <a href="https://instagram.com" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram">
+      <a href="https://www.instagram.com/rajpatil2025/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" />
       </a>
-      <a href="https://twitter.com" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
-      </a>
-      <a href="https://github.com" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
+      <a href="https://github.com/Rajpatil-2025" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" />
       </a>
     </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    <p>&copy; 2025 Raj Patil. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
